@@ -1,0 +1,39 @@
+# Creating a short README.md for the MediaPipeLearning folder
+
+mediapipe_readme_content = """# 🤖 MediaPipeLearning
+
+> Small Python project focused **only on MediaPipe**.
+
+---
+
+## 🔹 Purpose
+
+This folder contains **Python scripts using MediaPipe** for simple demos like:
+- Face detection
+- Eye detection
+- Smile detection
+- Hand detection
+
+No additional frameworks or complex setups — purely **MediaPipe-focused**.
+
+---
+
+## ⚡ How to run
+
+```bash
+cd Python-Projects/Learning/MediaPipeLearning
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate
+# Windows
+.\\.venv\\Scripts\\activate
+# Linux / macOS
+source .venv/bin/activate
+
+# Install dependencies
+pip install mediapipe opencv-python
+
+# Run the project
+python main.py
